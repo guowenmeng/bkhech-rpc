@@ -1,4 +1,4 @@
-package com.bkhech;
+package com.bkhech.consumer;
 
 import static org.junit.Assert.assertTrue;
 

@@ -32,4 +32,11 @@ public class Header implements Serializable {
      * 消息体长度 4 字节
      */
     private int length;
+
+    public Header(short magic, byte serialType, byte reqType, long requestId) {
+        this.magic = magic;
+        this.serialType = serialType;
+        this.reqType = reqType;
+        this.requestId = requestId;
+    }
 }

@@ -33,6 +33,10 @@
       <artifactId>netty-rpc-api</artifactId>
     </dependency>
     <dependency>
+      <groupId>com.bkhech</groupId>
+      <artifactId>netty-rpc-protocol</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
     </dependency>

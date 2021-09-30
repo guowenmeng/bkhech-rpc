@@ -47,6 +47,11 @@
                 <artifactId>netty-rpc-api</artifactId>
                 <version>${version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.bkhech</groupId>
+                <artifactId>netty-rpc-protocol</artifactId>
+                <version>${version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
